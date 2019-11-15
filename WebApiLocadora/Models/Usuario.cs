@@ -9,6 +9,7 @@ namespace LocadoraFilmes.Models
 {
     public class Usuario
     {
+        //[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int UsuarioID { get; set; }
         [Index(IsUnique = true)]
         [StringLength(200)]
