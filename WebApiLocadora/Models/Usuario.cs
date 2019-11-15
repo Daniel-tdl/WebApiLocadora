@@ -14,7 +14,7 @@ namespace LocadoraFilmes.Models
         [StringLength(200)]
         [Required]
         public string Nome { get; set; }
-        [Required] 
-        public string Senha { get; set; }   
+        [Required]
+        public string Senha { get; set; }
     }
 }

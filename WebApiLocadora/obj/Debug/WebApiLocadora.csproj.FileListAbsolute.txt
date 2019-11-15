@@ -69,3 +69,4 @@ C:\Daniel\Pessoal\GitHub\WebApiLocadora\WebApiLocadora\obj\Debug\WebApiLocadora.
 C:\Daniel\Pessoal\GitHub\WebApiLocadora\WebApiLocadora\obj\Debug\WebApiLocadora.pdb
 C:\Daniel\Pessoal\GitHub\WebApiLocadora\WebApiLocadora\obj\Debug\WebApiLocadora.Migrations.Create_DDL_Inicial.resources
 C:\Daniel\Pessoal\GitHub\WebApiLocadora\WebApiLocadora\obj\Debug\WebApiLocadora.csproj.GenerateResource.cache
+C:\Daniel\Pessoal\GitHub\WebApiLocadora\WebApiLocadora\obj\Debug\WebApiLocadora.csprojAssemblyReference.cache

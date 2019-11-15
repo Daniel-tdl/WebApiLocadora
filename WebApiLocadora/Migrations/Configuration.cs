@@ -5,14 +5,14 @@
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<LocadoraFilmes.Dao.Contex>
+    internal sealed class Configuration : DbMigrationsConfiguration<LocadoraFilmes.Dao.LocadoraContex>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(LocadoraFilmes.Dao.Contex context)
+        protected override void Seed(LocadoraFilmes.Dao.LocadoraContex context)
         {
             //  This method will be called after migrating to the latest version.
 
