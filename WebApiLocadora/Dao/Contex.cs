@@ -10,7 +10,7 @@ namespace LocadoraFilmes.Dao
 {
     public class Contex : DbContext
     {
-        public Contex() : base("DBLocadora") { }
+        public Contex() : base("LocadoraFilmes") { }
         protected override void OnModelCreating(DbModelBuilder modelBuilder) 
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();

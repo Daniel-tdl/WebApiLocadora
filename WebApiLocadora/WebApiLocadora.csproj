@@ -96,6 +96,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201911150300377_Create_DDL_Inicial.cs" />
+    <Compile Include="Migrations\201911150300377_Create_DDL_Inicial.designer.cs">
+      <DependentUpon>201911150300377_Create_DDL_Inicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Filme.cs" />
     <Compile Include="Models\Genero.cs" />
     <Compile Include="Models\Locacao.cs" />
@@ -114,6 +119,11 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201911150300377_Create_DDL_Inicial.resx">
+      <DependentUpon>201911150300377_Create_DDL_Inicial.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
